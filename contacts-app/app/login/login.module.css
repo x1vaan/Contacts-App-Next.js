@@ -2,7 +2,78 @@
     width: 100%;
     height: 100%;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2D3540;
+}
+
+.containerAuth {
+    margin-top: 13%;
+    height: 10vh;
+    width: 20vw;
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2D3540;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1vw;
+}
+
+.container h1{
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.container h1:hover {
+    color: #6B99D4;
+}
+
+.containerAuth .register {
+    font-size: 0.9vw;
+}
+
+.containerAuth .line {
+    transform: rotate(-65deg);
+    font-size: 3vw;
+}
+
+.container .emailInput {
+    box-shadow: inset 0px 2px 4px #323A44;
+    border: none;
+    outline: none;
+    width: 30vw;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background-color: #323A44;
+}
+
+.container .emailInput input {
+    color: #ccd6f6 ;
+}
+
+.container .emailInput label {
+    color: #ccd6f6 ;
+}
+
+.container .passwordInput {
+    box-shadow: inset 0px 2px 4px #323A44;
+    border: none;
+    outline: none;
+    width: 30vw;
+    background-color: #323A44;
+}
+
+.container .passwordInput input {
+    color: #ccd6f6 ;
+}
+
+.container .passwordInput label {
+    color: #ccd6f6 ;
+}
+
+.button {
+    position: absolute;
+    background-color: #6B99D4;
+    width: 10vw;
+    height: 6vh;
+    top: 58%;
+    right: 35%;
 }

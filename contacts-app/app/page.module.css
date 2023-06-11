@@ -10,15 +10,15 @@
 
 .container h1 {
   font-weight: 300;
-  font-size: 5em;
+  font-size: 5vw;
   letter-spacing: 10px;
   color: #ebf6ff;
-  margin-top: 15%;
+  margin-top: -5%;
   margin-bottom: 2%;
 }
 
 .container p {
-  font-size: 2em;
+  font-size: 2vw;
   letter-spacing: 8px;
   color: #ebf6ff;
   margin-bottom: 3%;
@@ -27,10 +27,10 @@
 .button {
   width: 25vw;
   height: 5em;
-  background-color: #1DB954;
+  background-color: #6B99D4;
 }
 .button:hover{
    background-color:#0d1117;
-   border: 1px solid #1DB954;
-   color: #1DB954;
+   border: 1px solid #6B99D4;
+   color: #6B99D4;
 }
