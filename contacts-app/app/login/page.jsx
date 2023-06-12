@@ -32,7 +32,7 @@ export default function Login(){
             required
             className={css.passwordInput}
             />
-            <Button variant="contained" className={css.button}>Log in</Button>
+            <Link href='/home'><Button variant="contained" className={css.button}>Log in</Button></Link>
         </div>
     )
 }
